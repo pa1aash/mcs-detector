@@ -1,0 +1,14 @@
+/mcs/det/geom voxel
+/mcs/det/voxel /Users/raunavmendiratta/highland-jinst-repo/data/geom_stats/voxel/rectilinear_f30_c0.5_camp_vox.raw
+/mcs/det/topology rectilinear
+/mcs/det/infill 0.3
+/mcs/det/maxStep 0.1 mm
+/run/setCut 0.05 mm
+/run/initialize
+/gun/particle proton
+/gun/energy 1000 MeV
+/mcs/gun/spotXY 0.5 mm
+/random/setSeeds 259820358 0
+/analysis/setFileName /Users/raunavmendiratta/highland-jinst-repo/data/runs_m3/m3_rectilinear_f30_c500um_E1000
+/run/printProgress 2500000
+/run/beamOn 10000000

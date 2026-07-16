@@ -1,0 +1,23 @@
+{
+  "title": "Multiple Coulomb Scattering in Lattice and Foam Detector Structures Beyond the Homogeneous-Slab Approximation: reproducible code and data",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "creators": [
+    { "name": "Gang, Palaash", "orcid": "0009-0006-7448-9488" },
+    { "name": "Mendiratta, Raunav", "orcid": "0009-0003-4426-2088" },
+    { "name": "Bharti, Palash", "orcid": "0009-0000-8926-5520" },
+    { "name": "Punjabi, Dhruv", "orcid": "0009-0002-6678-6192" }
+  ],
+  "keywords": [
+    "multiple Coulomb scattering",
+    "detector modelling and simulations",
+    "3D-printed lattices",
+    "carbon foam",
+    "Geant4",
+    "effective cell count",
+    "fourth cumulant"
+  ],
+  "description": "Reproducible Geant4 simulation and analysis framework for the study of multiple Coulomb scattering in porous low-mass detector structures (3D-printed lattices and reticulated carbon foams). Includes the Geant4 application, analytic and voxel geometry generators, a transport-aware ray-tracer, the cumulant-analysis and deconvolution pipeline, the figure-generation scripts, and the committed reduced results sufficient to regenerate every figure and table without new simulation. Code is released under the MIT License; the derived data products are released under CC BY 4.0."
+}

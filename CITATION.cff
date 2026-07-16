@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite both the paper (preferred-citation) and the software/data archive."
+title: "Multiple Coulomb Scattering in Lattice and Foam Detector Structures Beyond the Homogeneous-Slab Approximation"
+abstract: >-
+  Geant4 simulation, analysis, and manuscript source for a study of multiple Coulomb scattering in
+  porous low-mass detector structures (3D-printed lattices and reticulated carbon foams), showing
+  the homogeneous-slab approximation is width-safe but shape-unsafe, with the geometry-induced
+  excess fourth cumulant following a parameter-free N_eff^-1 scaling.
+type: software
+authors:
+  - given-names: Palaash
+    family-names: Gang
+    orcid: "https://orcid.org/0009-0006-7448-9488"
+  - given-names: Raunav
+    family-names: Mendiratta
+    orcid: "https://orcid.org/0009-0003-4426-2088"
+  - given-names: "Palash"
+    family-names: Bharti
+    orcid: "https://orcid.org/0009-0000-8926-5520"
+  - given-names: "Dhruv"
+    family-names: Punjabi
+    orcid: "https://orcid.org/0009-0002-6678-6192"
+version: "1.0.0"
+date-released: "2026-07-17"
+license: MIT
+# doi: <ZENODO CONCEPT DOI --- pending deposit>          # software/data archive DOI (Zenodo)
+# repository-code: <REPOSITORY URL --- pending public release>
+keywords:
+  - multiple Coulomb scattering
+  - detector modelling and simulations
+  - 3D-printed lattices
+  - carbon foam
+  - Geant4
+  - effective cell count
+  - fourth cumulant
+preferred-citation:
+  type: article
+  title: "Multiple Coulomb Scattering in Lattice and Foam Detector Structures Beyond the Homogeneous-Slab Approximation"
+  authors:
+    - given-names: Palaash
+      family-names: Gang
+      orcid: "https://orcid.org/0009-0006-7448-9488"
+    - given-names: Raunav
+      family-names: Mendiratta
+      orcid: "https://orcid.org/0009-0003-4426-2088"
+    - given-names: "Palash"
+      family-names: Bharti
+      orcid: "https://orcid.org/0009-0000-8926-5520"
+    - given-names: "Dhruv"
+      family-names: Punjabi
+      orcid: "https://orcid.org/0009-0002-6678-6192"
+  journal: "Journal of Instrumentation"
+  year: 2026
+  # volume, start (page), and doi are pending journal acceptance:
+  # volume: <PENDING>
+  # start: <PENDING>
+  # doi: <JINST ARTICLE DOI --- pending acceptance>

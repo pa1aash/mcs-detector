@@ -1,0 +1,2 @@
+voronoi solid-chord exponential KS fit (cell=2.5, f=0.40)
+n=196928 mean_chord_mm=0.9188 KS_stat=0.3099 p_value=0.0000

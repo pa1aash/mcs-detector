@@ -1,0 +1,184 @@
+{
+ "block": "B (cell scale-invariance; N_eff cell-independent for periodic lattices, D6)",
+ "L": 10.0,
+ "f": 0.3,
+ "window_mrad": {
+  "200": 0.03784,
+  "1000": 0.00895
+ },
+ "committed_per_energy_exponents": {
+  "200": [
+   -0.951,
+   -1.04,
+   -0.866
+  ],
+  "500": [
+   -1.001,
+   -1.095,
+   -0.908
+  ],
+  "200+500 pooled": [
+   -0.983,
+   -1.052,
+   -0.914
+  ]
+ },
+ "wide_cell_rows": [
+  {
+   "topo": "gyroid",
+   "E": 200,
+   "cell_mm": 1.0,
+   "f_built": 0.298,
+   "N_eff": 4.335045090667015,
+   "dk4": 3.5201869211854065e-10,
+   "C": 0.37368408423687594,
+   "CxNeff": 1.6199373548314684,
+   "y_rms_mm": 0.01978534811419804,
+   "cell_over_5yrms": 10.108490325549502,
+   "straight_chord_ok": true
+  },
+  {
+   "topo": "gyroid",
+   "E": 200,
+   "cell_mm": 5.0,
+   "f_built": 0.298,
+   "N_eff": 4.335045090667015,
+   "dk4": 3.3702138318495667e-10,
+   "C": 0.3577637488105497,
+   "CxNeff": 1.5509219828998007,
+   "y_rms_mm": 0.01978534811419804,
+   "cell_over_5yrms": 50.54245162774751,
+   "straight_chord_ok": true
+  },
+  {
+   "topo": "gyroid",
+   "E": 200,
+   "cell_mm": 0.5,
+   "f_built": 0.298,
+   "N_eff": 4.335045090667015,
+   "dk4": 3.171004060798174e-10,
+   "C": 0.33661671243632507,
+   "CxNeff": 1.4592486266835614,
+   "y_rms_mm": 0.01978534811419804,
+   "cell_over_5yrms": 5.054245162774751,
+   "straight_chord_ok": true
+  },
+  {
+   "topo": "rectilinear",
+   "E": 200,
+   "cell_mm": 1.0,
+   "f_built": 0.29959375,
+   "N_eff": 2.0805297391276967,
+   "dk4": 7.256139029643936e-10,
+   "C": 0.7679184209468707,
+   "CxNeff": 1.5976771120039457,
+   "y_rms_mm": 0.01978534811419804,
+   "cell_over_5yrms": 10.108490325549502,
+   "straight_chord_ok": true
+  },
+  {
+   "topo": "rectilinear",
+   "E": 200,
+   "cell_mm": 5.0,
+   "f_built": 0.29959375,
+   "N_eff": 2.0805297391276967,
+   "dk4": 7.356202800626498e-10,
+   "C": 0.778508186756621,
+   "CxNeff": 1.6197094347015288,
+   "y_rms_mm": 0.01978534811419804,
+   "cell_over_5yrms": 50.54245162774751,
+   "straight_chord_ok": true
+  },
+  {
+   "topo": "rectilinear",
+   "E": 200,
+   "cell_mm": 0.5,
+   "f_built": 0.29959375,
+   "N_eff": 2.0805297391276967,
+   "dk4": 6.850490199913611e-10,
+   "C": 0.7249885366774478,
+   "CxNeff": 1.508360211084101,
+   "y_rms_mm": 0.01978534811419804,
+   "cell_over_5yrms": 5.054245162774751,
+   "straight_chord_ok": true
+  },
+  {
+   "topo": "schwarzp",
+   "E": 200,
+   "cell_mm": 1.0,
+   "f_built": 0.29925,
+   "N_eff": 2.249705811554448,
+   "dk4": 6.956164587362145e-10,
+   "C": 0.7366561786118827,
+   "CxNeff": 1.6572596861406441,
+   "y_rms_mm": 0.01978534811419804,
+   "cell_over_5yrms": 10.108490325549502,
+   "straight_chord_ok": true
+  },
+  {
+   "topo": "schwarzp",
+   "E": 200,
+   "cell_mm": 5.0,
+   "f_built": 0.29925,
+   "N_eff": 2.249705811554448,
+   "dk4": 7.310776168733071e-10,
+   "C": 0.7742094609046588,
+   "CxNeff": 1.7417435235576473,
+   "y_rms_mm": 0.01978534811419804,
+   "cell_over_5yrms": 50.54245162774751,
+   "straight_chord_ok": true
+  },
+  {
+   "topo": "schwarzp",
+   "E": 200,
+   "cell_mm": 0.5,
+   "f_built": 0.29925,
+   "N_eff": 2.249705811554448,
+   "dk4": 6.882313203125465e-10,
+   "C": 0.7288353345513742,
+   "CxNeff": 1.639665087806457,
+   "y_rms_mm": 0.01978534811419804,
+   "cell_over_5yrms": 5.054245162774751,
+   "straight_chord_ok": true
+  }
+ ],
+ "scale_invariance": {
+  "gyroid@200": {
+   "cells_mm": [
+    1.0,
+    5.0,
+    0.5
+   ],
+   "N_eff_mean": 4.335045090667015,
+   "N_eff_spread_pct": 0.0,
+   "C_mean": 0.35602151516125025,
+   "C_cv_pct": 4.264560918477597,
+   "CxNeff_mean": 1.5433693214716102
+  },
+  "rectilinear@200": {
+   "cells_mm": [
+    1.0,
+    5.0,
+    0.5
+   ],
+   "N_eff_mean": 2.0805297391276967,
+   "N_eff_spread_pct": 0.0,
+   "C_mean": 0.7571383814603131,
+   "C_cv_pct": 3.056350594611626,
+   "CxNeff_mean": 1.575248919263192
+  },
+  "schwarzp@200": {
+   "cells_mm": [
+    1.0,
+    5.0,
+    0.5
+   ],
+   "N_eff_mean": 2.249705811554448,
+   "N_eff_spread_pct": 0.0,
+   "C_mean": 0.7465669913559719,
+   "C_cv_pct": 2.6528409508535202,
+   "CxNeff_mean": 1.6795560991682494
+  }
+ },
+ "note": "Block A (1000 MeV std cell, the third energy) -> e2_analysis.py --energies 1000 --out-tag m3_1000; the collapse EXPONENT comes from the standard-cell topology span, not these replicate wide-cell points"
+}

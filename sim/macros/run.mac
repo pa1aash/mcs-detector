@@ -1,0 +1,29 @@
+# run.mac --- batch template (S3). Parameters are set via aliases so the driver
+# can override them with /control/alias before /control/execute, or copy this
+# block into a generated per-run macro. Order matters: set geometry + cuts
+# BEFORE /run/initialize (Construct reads them then), then beam, then beamOn.
+
+# ---- tunable parameters (defaults = headline Highland-check point) ----
+/control/alias MAT      PLA
+/control/alias THICK    16
+/control/alias MAXSTEP  0.1
+/control/alias CUT      0.05
+/control/alias ENERGY   200
+/control/alias NEVT     200000
+/control/alias OUT      data/runs/run
+
+# ---- geometry + physics cuts (pre-initialize) ----
+/mcs/det/material {MAT}
+/mcs/det/thickness {THICK} mm
+/mcs/det/maxStep {MAXSTEP} mm
+/run/setCut {CUT} mm
+/run/initialize
+
+# ---- beam (proton pencil along +z) ----
+/gun/particle proton
+/gun/energy {ENERGY} MeV
+
+# ---- output + run ----
+/analysis/setFileName {OUT}
+/run/printProgress 50000
+/run/beamOn {NEVT}

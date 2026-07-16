@@ -1,0 +1,162 @@
+{
+ "flux_Hz": 1000000.0,
+ "targets": [
+  0.3,
+  0.2,
+  0.1
+ ],
+ "configs": [
+  {
+   "E": 200,
+   "topology": "rectilinear",
+   "infill": 0.4,
+   "N_eff": 2.0680399129522744,
+   "tag": "camp_rectilinear_f40_E200",
+   "n_protons_measured": 3000000,
+   "cif_dk4": 0.0991582857923002,
+   "cif_theta0": 0.0011805801838509341,
+   "cif_k4raw": 0.014331169307880701,
+   "cif_k2": 0.002696879502170513,
+   "N_for": {
+    "30pct": 327745.5213755828,
+    "20pct": 737427.4230950611,
+    "10pct": 2949709.6923802444
+   },
+   "beamtime_s": {
+    "30pct": 0.32774552137558277,
+    "20pct": 0.737427423095061,
+    "10pct": 2.949709692380244
+   },
+   "cost_ratio_shape_vs_width": 7054.513062535586,
+   "cost_ratio_moment_order": 28.238405394552274,
+   "cost_ratio_deconv_smallsignal": 47.87345451173173
+  },
+  {
+   "E": 200,
+   "topology": "gyroid",
+   "infill": 0.4,
+   "N_eff": 3.879133829142209,
+   "tag": "camp_gyroid_f40_E200",
+   "n_protons_measured": 6000000,
+   "cif_dk4": 0.12468504607498644,
+   "cif_theta0": 0.0007705038355640525,
+   "cif_k4raw": 0.011120604305379636,
+   "cif_k2": 0.0017520203679352983,
+   "N_for": {
+    "30pct": 1036424.0476480996,
+    "20pct": 2331954.107208223,
+    "10pct": 9327816.428832892
+   },
+   "beamtime_s": {
+    "30pct": 1.0364240476480997,
+    "20pct": 2.3319541072082233,
+    "10pct": 9.327816428832893
+   },
+   "cost_ratio_shape_vs_width": 26186.600955164136,
+   "cost_ratio_moment_order": 40.28825659052657,
+   "cost_ratio_deconv_smallsignal": 125.71061886449186
+  },
+  {
+   "E": 200,
+   "topology": "voronoi",
+   "infill": 0.4,
+   "N_eff": 9.319570559919624,
+   "tag": "camp_voronoi_f40_E200",
+   "n_protons_measured": 30000000,
+   "cif_dk4": 0.12973710725290188,
+   "cif_theta0": 0.0002741282093668212,
+   "cif_k4raw": 0.0056043566788052685,
+   "cif_k2": 0.0006840216332308651,
+   "N_for": {
+    "30pct": 5610572.332783656,
+    "20pct": 12623787.748763226,
+    "10pct": 50495150.995052904
+   },
+   "beamtime_s": {
+    "30pct": 5.610572332783656,
+    "20pct": 12.623787748763226,
+    "10pct": 50.4951509950529
+   },
+   "cost_ratio_shape_vs_width": 223986.04535122414,
+   "cost_ratio_moment_order": 67.12926009517443,
+   "cost_ratio_deconv_smallsignal": 1779.7294887945507,
+   "_reanchored": "f30->f40 (referee M2); cif_theta0/cif_k4raw carried from f30 (signal-indep at fixed N); full .root regen pending"
+  },
+  {
+   "E": 500,
+   "topology": "rectilinear",
+   "infill": 0.4,
+   "N_eff": 2.0680399129522744,
+   "tag": "camp_rectilinear_f40_E500",
+   "n_protons_measured": 3000000,
+   "cif_dk4": 0.08934836334863067,
+   "cif_theta0": 0.001160022229389044,
+   "cif_k4raw": 0.014299024281714296,
+   "cif_k2": 0.0025017582308407764,
+   "N_for": {
+    "30pct": 266104.3344359643,
+    "20pct": 598734.7524809196,
+    "10pct": 2394939.0099236784
+   },
+   "beamtime_s": {
+    "30pct": 0.2661043344359643,
+    "20pct": 0.5987347524809196,
+    "10pct": 2.3949390099236783
+   },
+   "cost_ratio_shape_vs_width": 5932.538701083772,
+   "cost_ratio_moment_order": 32.667968842954295,
+   "cost_ratio_deconv_smallsignal": 39.04454768062294
+  },
+  {
+   "E": 500,
+   "topology": "gyroid",
+   "infill": 0.4,
+   "N_eff": 3.879133829142209,
+   "tag": "camp_gyroid_f40_E500",
+   "n_protons_measured": 6000000,
+   "cif_dk4": 0.12677129511803664,
+   "cif_theta0": 0.0007573306207932079,
+   "cif_k4raw": 0.011953741012070184,
+   "cif_k2": 0.0017829468197237018,
+   "N_for": {
+    "30pct": 1071397.417726956,
+    "20pct": 2410644.1898856508,
+    "10pct": 9642576.759542603
+   },
+   "beamtime_s": {
+    "30pct": 1.071397417726956,
+    "20pct": 2.4106441898856508,
+    "10pct": 9.642576759542603
+   },
+   "cost_ratio_shape_vs_width": 28020.173542375047,
+   "cost_ratio_moment_order": 44.95012515760102,
+   "cost_ratio_deconv_smallsignal": 112.46934603000722
+  },
+  {
+   "E": 500,
+   "topology": "voronoi",
+   "infill": 0.4,
+   "N_eff": 9.319570559919624,
+   "tag": "camp_voronoi_f40_E500",
+   "n_protons_measured": 30000000,
+   "cif_dk4": 0.14247617917007652,
+   "cif_theta0": 0.00026272688527962046,
+   "cif_k4raw": 0.005143222338819414,
+   "cif_k2": 0.0007523266560473593,
+   "N_for": {
+    "30pct": 6766487.21030125,
+    "20pct": 15224596.223177807,
+    "10pct": 60898384.89271123
+   },
+   "beamtime_s": {
+    "30pct": 6.76648721030125,
+    "20pct": 15.224596223177807,
+    "10pct": 60.89838489271123
+   },
+   "cost_ratio_shape_vs_width": 294086.76881795673,
+   "cost_ratio_moment_order": 46.73666278572993,
+   "cost_ratio_deconv_smallsignal": 2704.38970942344,
+   "_reanchored": "f30->f40 (referee M2); cif_theta0/cif_k4raw carried from f30 (signal-indep at fixed N); full .root regen pending"
+  }
+ ]
+}

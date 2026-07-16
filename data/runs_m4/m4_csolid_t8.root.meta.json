@@ -1,0 +1,23 @@
+{
+  "em_physics": "option4",
+  "msc_thetalimit_deg": "",
+  "msc_muhad_rangefac": "",
+  "material": "C_amorph",
+  "thickness_mm": 8,
+  "density_g_cm3": 1.7,
+  "X0_mm": 251.159,
+  "t_over_X0": 0.0318523,
+  "maxStep_mm": 0.1,
+  "cut_mm": 0.05,
+  "geom": "slab",
+  "topology": "",
+  "infill": 0,
+  "cell_mm": 2.5,
+  "tilt_deg": 0,
+  "depth_mm": 8,
+  "ntile": 3,
+  "reflective": 0,
+  "seed": 105544534,
+  "git_commit": "",
+  "n_events": 3000000
+}

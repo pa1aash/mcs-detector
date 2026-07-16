@@ -1,0 +1,23 @@
+{
+  "em_physics": "option4",
+  "msc_thetalimit_deg": "",
+  "msc_muhad_rangefac": "",
+  "material": "PLA",
+  "thickness_mm": 5,
+  "density_g_cm3": 1.24,
+  "X0_mm": 315.423,
+  "t_over_X0": 0.0158517,
+  "maxStep_mm": 0.1,
+  "cut_mm": 0.05,
+  "geom": "slab",
+  "topology": "",
+  "infill": 0,
+  "cell_mm": 2.5,
+  "tilt_deg": 0,
+  "depth_mm": 5,
+  "ntile": 3,
+  "reflective": 0,
+  "seed": 708896875,
+  "git_commit": "27cafd068d16bed9e2756a534c8a6e10d40b3c40",
+  "n_events": 3000000
+}

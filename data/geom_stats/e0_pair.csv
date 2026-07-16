@@ -1,0 +1,10 @@
+cell_size,f_rect,f_gyroid,l_int_rect,l_int_gyroid,N_eff_rect,N_eff_gyroid,f_match_ok,l_int_match_ok,note
+0.01,0.4008,0.4007,4.3204,2.3249,2.0833,3.8640,True,False,"matched f+cell; l_int NOT matchable (periodic, disjoint)"
+0.02,0.4008,0.4007,4.3204,2.3249,2.0833,3.8640,True,False,"matched f+cell; l_int NOT matchable (periodic, disjoint)"
+0.05,0.4008,0.4007,4.3204,2.3249,2.0833,3.8640,True,False,"matched f+cell; l_int NOT matchable (periodic, disjoint)"
+0.1,0.4008,0.4007,4.3204,2.3249,2.0833,3.8640,True,False,"matched f+cell; l_int NOT matchable (periodic, disjoint)"
+0.2,0.4008,0.4007,4.3204,2.3249,2.0833,3.8640,True,False,"matched f+cell; l_int NOT matchable (periodic, disjoint)"
+0.5,0.4008,0.4007,4.3204,2.3249,2.0833,3.8640,True,False,"matched f+cell; l_int NOT matchable (periodic, disjoint)"
+1.0,0.4008,0.4007,4.3204,2.3249,2.0833,3.8640,True,False,"matched f+cell; l_int NOT matchable (periodic, disjoint)"
+2.0,0.4008,0.4007,4.3204,2.3249,2.0833,3.8640,True,False,"matched f+cell; l_int NOT matchable (periodic, disjoint)"
+3.0,0.4008,0.4007,4.3204,2.3249,2.0833,3.8640,True,False,"matched f+cell; l_int NOT matchable (periodic, disjoint)"

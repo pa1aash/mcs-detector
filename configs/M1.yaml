@@ -1,0 +1,23 @@
+# M1 -- downstream reconstruction-impact campaign (frozen; see ANALYSIS_PLAN.md M1).
+# Estimate (8-thread M4 Pro, 0.30 core-h/1e6): full matrix ~27 core-h / ~3.4 wall-h
+# (< 200 CPU-h checkpoint). Telescope ntuple output -> data/runs_m1/.
+campaign_id: M1_impact
+description: reconstruction impact of the homogeneous-slab model through structured targets
+telescope:
+  plane_z_mm: [-300, -200, -100, 100, 200, 300]
+  beam_zstart_mm: -350
+  sigma_hit_um: 5          # applied at ANALYSIS time (truth hits kept)
+geometry:
+  cell_mm: 2.5
+  infill: 0.30
+  depth_mm: 10.0
+  slab_t_mm: 3.0           # matched mean material fL = 0.30*10
+energies_mev: [200, 1000]
+n_events: 5.0e6
+seed_base: 4001
+matrix:                    # (target, planeSi, beam) tuples; target-out = empty
+  - {targets: [rectilinear, gyroid, slab, empty], planeSi: false, beam: pencil}
+  - {targets: [rectilinear, slab, empty],         planeSi: true,  beam: pencil}
+  - {targets: [rectilinear, slab],                planeSi: false, beam: divergence}
+beam_divergence: {sigma_theta_mrad: 1.0, spot_xy_mm: 1.0}
+outputs: {runs: data/runs_m1, results: results/M1}

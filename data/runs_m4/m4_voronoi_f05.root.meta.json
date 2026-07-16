@@ -1,0 +1,23 @@
+{
+  "em_physics": "option4",
+  "msc_thetalimit_deg": "",
+  "msc_muhad_rangefac": "",
+  "material": "C_amorph",
+  "thickness_mm": 16,
+  "density_g_cm3": 1.7,
+  "X0_mm": 251.159,
+  "t_over_X0": 0.0637047,
+  "maxStep_mm": 0.1,
+  "cut_mm": 0.05,
+  "geom": "voxel",
+  "topology": "voronoi",
+  "infill": 0.05,
+  "cell_mm": 2.5,
+  "tilt_deg": 0,
+  "depth_mm": 10,
+  "ntile": 3,
+  "reflective": 0,
+  "seed": 118008953,
+  "git_commit": "27cafd068d16bed9e2756a534c8a6e10d40b3c40",
+  "n_events": 3000000
+}

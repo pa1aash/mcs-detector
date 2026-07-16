@@ -1,0 +1,62 @@
+{
+ "data": "data/runs/camp_rectilinear_f30_E200.root",
+ "seed": 467270541,
+ "a_eff": 3.8740965381209155e-06,
+ "floor_mean": 1.0331933605374822e-09,
+ "n_boot": 400,
+ "convention": "1 sigma bootstrap width; N counts protons (2N projected angles); all-order e2 floor",
+ "point": {
+  "f": 0.2963843011404715,
+  "N_eff": 2.1192970260017256
+ },
+ "posteriors": [
+  {
+   "N": 100000,
+   "measured": true,
+   "f": [
+    0.29634,
+    0.002357
+   ],
+   "N_eff": [
+    2.1747,
+    0.30641
+   ]
+  },
+  {
+   "N": 1000000,
+   "measured": true,
+   "f": [
+    0.29632,
+    0.000794
+   ],
+   "N_eff": [
+    2.1312,
+    0.09508
+   ]
+  },
+  {
+   "N": 3000000,
+   "measured": true,
+   "f": [
+    0.29638,
+    0.000448
+   ],
+   "N_eff": [
+    2.1219,
+    0.05588
+   ]
+  },
+  {
+   "N": 10000000,
+   "measured": false,
+   "f": [
+    0.29638,
+    0.000245
+   ],
+   "N_eff": [
+    2.1219,
+    0.03061
+   ]
+  }
+ ]
+}

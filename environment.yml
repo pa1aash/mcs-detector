@@ -1,0 +1,24 @@
+# Conda environment for highland-jinst-repo (name of record: g4highland).
+# Captured Phase 0 (2026-07-10) from the working macOS-arm64 env. Geant4 must come
+# from conda-forge (pulls its data files). Analysis reads ROOT via uproot, so no
+# PyROOT/C++ ROOT is required. Recreate:  conda env create -f environment.yml
+name: g4highland
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - geant4=11.3.2
+  - cmake>=3.16
+  - clang                    # C++17 compiler (macOS arm64: clang 18)
+  - expat>=2.7.1             # Geant4 dependency; see docs/REPO_MAP.md EXPAT note
+  - numpy=2.4.*
+  - scipy=1.17.*
+  - matplotlib=3.10.*
+  - uproot=5.7.*
+  - awkward=2.9.*
+  - scikit-image=0.26.*
+  - trimesh
+  - pytest
+  # --- added for Phase-3 N3 (Bayesian N_eff recovery); NOT ML (analytic likelihood + MCMC):
+  # - emcee
+  # - numpyro           # optional NUTS backend (pulls jax)

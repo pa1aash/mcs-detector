@@ -1,0 +1,40 @@
+# M3 -- third energy (1000 MeV) + cell scale-invariance (frozen; see ANALYSIS_PLAN.md sec M3).
+# Extends the Delta_kappa4 ~ N_eff^-1 collapse from 2 energies (200,500) to 3 (adds the
+# never-run 1000 MeV). CORRECTION (DEVIATIONS D6): block B does NOT widen N_eff -- periodic
+# self-similar lattices have cell-INDEPENDENT N_eff (t(r)=L*g(r), g scale-invariant), so the
+# wide-cell scan is a SCALE-INVARIANCE check (collapse point stationary over 10x cell), not a
+# lever-arm extension. N_eff range stays topology-driven (~1 decade).
+# Driver: sim/run_m3.py  ->  analysis: e2_analysis.py --energies 1000 + analysis/m3_collapse.py
+campaign_id: M3_energy_neff
+description: third energy + wide-N_eff lever arm for the fourth-cumulant collapse
+
+blocks:
+  A_third_energy:                    # native campaign tags -> data/runs/ (e2 reads directly)
+    energy_mev: 1000
+    cell_mm: 2.5
+    depth_mm: 10.0
+    topologies: [rectilinear, gyroid, schwarzp]    # periodic families (voronoi/diamond excluded, plan)
+    infills: [0.20, 0.30, 0.40, 0.50]
+    solids_mm: [2, 3, 4, 5, 8, 16]                  # frozen floor set kappa_M(t)=b t + c t^2
+    empty_mm: 16
+    n_events: 1.0e7                  # W(1000)=8.95 mrad; small kappa4 -> needs the stats
+    seed_base: 12345                 # == campaign.py (runs indistinguishable from a campaign 1000 run)
+  B_wide_neff:                       # m3_<topo>_f30_c<cell>_E<E> -> data/runs_m3/
+    energies_mev: [200, 1000]
+    infill: 0.30
+    topologies: [rectilinear, gyroid, schwarzp]
+    cells_mm: [0.5, 1.0, 5.0]        # ALL >= c_break: 0.5mm=500um >= c_break(200)~291um >= c_break(1000)~72um
+    n_events: {200: 3.0e6, 1000: 1.0e7}
+    seed_base: 8001
+    c_break_guard: "verify cell >= 5-7*y_rms(p) per config in m3_collapse; wandering-regime points excluded from the fit"
+
+analysis:
+  window_mrad: {200: 37.84, 1000: 8.95}            # locked absolute W(E), never recomputed
+  a_eff: {200: 3.8743e-6}                           # committed (e2_results_combined); 1000 calibrated from M3-A solids
+  D4: {200: -0.167, 1000: -0.196}                   # amplitude renorm, exponent-preserving
+  floor_200: data/runs_m2/m2_solid_t{2,3,4,5}.root  # M2 PLA solids reused for the 200 MeV wide-cell floor
+  fit: OLS primary + WLS secondary, Birge-inflated MC bootstrap CI, per-energy + pooled (ANALYSIS_PLAN sec 0)
+  msc_band: WentzelVI (option4, primary) vs Urban (option3) prefactor band on the 1000 MeV points
+
+outputs: {runs: [data/runs, data/runs_m3], results: results/M3}
+estimate_core_h: "pilot-calibrated; written to STATUS.md before launch (HARD STOP c, user-approved)"

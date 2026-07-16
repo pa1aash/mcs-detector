@@ -1,0 +1,23 @@
+{
+  "em_physics": "option4",
+  "msc_thetalimit_deg": "",
+  "msc_muhad_rangefac": "",
+  "material": "G4_Galactic",
+  "thickness_mm": 16,
+  "density_g_cm3": 1e-25,
+  "X0_mm": 6.30435e+27,
+  "t_over_X0": 2.53793e-27,
+  "maxStep_mm": 0.1,
+  "cut_mm": 0.05,
+  "geom": "slab",
+  "topology": "",
+  "infill": 0,
+  "cell_mm": 2.5,
+  "tilt_deg": 0,
+  "depth_mm": 16,
+  "ntile": 3,
+  "reflective": 0,
+  "seed": 1227716589,
+  "git_commit": "",
+  "n_events": 3000000
+}

@@ -1,0 +1,16 @@
+# vis.mac --- interactive visualization (S3). A few primaries through the slab.
+/mcs/det/material PLA
+/mcs/det/thickness 16 mm
+/mcs/det/maxStep 0.1 mm
+/run/setCut 0.05 mm
+/run/initialize
+
+/vis/open OGL
+/vis/drawVolume
+/vis/viewer/set/viewpointThetaPhi 70 20
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+
+/gun/particle proton
+/gun/energy 200 MeV
+/run/beamOn 20

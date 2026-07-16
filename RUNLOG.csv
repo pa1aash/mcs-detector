@@ -1,0 +1,244 @@
+campaign_id,config,tag,seed,n_events,wall_s,threads,exit,output_path,git_commit,notes
+phase0_repro,phase0-reduced-stat,camp_rectilinear_f20_E500,905828630,1000000,41.7,10,0,data/runs/camp_rectilinear_f20_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_rectilinear_f30_E500,1621435909,1000000,47.1,10,0,data/runs/camp_rectilinear_f30_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_rectilinear_f40_E500,968513580,1000000,52.8,10,0,data/runs/camp_rectilinear_f40_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_rectilinear_f50_E500,1327850190,1000000,57.6,10,0,data/runs/camp_rectilinear_f50_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_gyroid_f20_E500,1614820102,1000000,23.7,10,0,data/runs/camp_gyroid_f20_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_gyroid_f30_E500,1751039197,1000000,25.7,10,0,data/runs/camp_gyroid_f30_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_gyroid_f40_E500,762158571,1000000,29.5,10,0,data/runs/camp_gyroid_f40_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_gyroid_f50_E500,622342439,1000000,33.4,10,0,data/runs/camp_gyroid_f50_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_schwarzp_f20_E500,1346948030,1000000,21.9,10,0,data/runs/camp_schwarzp_f20_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_schwarzp_f30_E500,1029607854,1000000,25.8,10,0,data/runs/camp_schwarzp_f30_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_schwarzp_f40_E500,1801922444,1000000,30.4,10,0,data/runs/camp_schwarzp_f40_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_schwarzp_f50_E500,1084649804,1000000,34.3,10,0,data/runs/camp_schwarzp_f50_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,camp_voronoi_f30_E500,1510947673,3000000,81.5,10,0,data/runs/camp_voronoi_f30_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,empty_E500,1642983081,1000000,8.4,10,0,data/runs/empty_E500.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,solid_E500_t2,1134886126,1000000,4.9,10,0,data/runs/solid_E500_t2.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,solid_E500_t3,1372662496,1000000,6.1,10,0,data/runs/solid_E500_t3.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,solid_E500_t4,1534014959,1000000,7.9,10,0,data/runs/solid_E500_t4.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+phase0_repro,phase0-reduced-stat,solid_E500_t5,765364671,1000000,8.4,10,0,data/runs/solid_E500_t5.root,2c18a89,reduced-stat reproduction (transient; root deleted)
+M1_impact,configs/M1.yaml,m1_rectilinear_massless_pencil_E200,1586531228,5000000,230.2,8,0,data/runs_m1/m1_rectilinear_massless_pencil_E200.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_rectilinear_massless_pencil_E1000,1973277544,5000000,211.7,8,0,data/runs_m1/m1_rectilinear_massless_pencil_E1000.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_gyroid_massless_pencil_E200,249228952,5000000,169.1,8,0,data/runs_m1/m1_gyroid_massless_pencil_E200.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_gyroid_massless_pencil_E1000,989043264,5000000,152.4,8,0,data/runs_m1/m1_gyroid_massless_pencil_E1000.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_slab_massless_pencil_E200,1302675658,5000000,43.3,8,0,data/runs_m1/m1_slab_massless_pencil_E200.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_slab_massless_pencil_E1000,2119473751,5000000,41.4,8,0,data/runs_m1/m1_slab_massless_pencil_E1000.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_empty_massless_pencil_E200,734830655,5000000,25.9,8,0,data/runs_m1/m1_empty_massless_pencil_E200.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_empty_massless_pencil_E1000,911455974,5000000,26.8,8,0,data/runs_m1/m1_empty_massless_pencil_E1000.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_rectilinear_si_pencil_E200,1364253065,5000000,273.7,8,0,data/runs_m1/m1_rectilinear_si_pencil_E200.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_rectilinear_si_pencil_E1000,754482535,5000000,222.0,8,0,data/runs_m1/m1_rectilinear_si_pencil_E1000.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_slab_si_pencil_E200,2047308483,5000000,49.7,8,0,data/runs_m1/m1_slab_si_pencil_E200.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_slab_si_pencil_E1000,225372743,5000000,49.2,8,0,data/runs_m1/m1_slab_si_pencil_E1000.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_empty_si_pencil_E200,1847335595,5000000,34.4,8,0,data/runs_m1/m1_empty_si_pencil_E200.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_empty_si_pencil_E1000,1535839217,5000000,34.5,8,0,data/runs_m1/m1_empty_si_pencil_E1000.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_rectilinear_massless_divergence_E200,351049913,5000000,156.9,8,0,data/runs_m1/m1_rectilinear_massless_divergence_E200.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_rectilinear_massless_divergence_E1000,397817239,5000000,143.8,8,0,data/runs_m1/m1_rectilinear_massless_divergence_E1000.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_slab_massless_divergence_E200,531611214,5000000,45.0,8,0,data/runs_m1/m1_slab_massless_divergence_E200.root,27cafd0,M1 telescope
+M1_impact,configs/M1.yaml,m1_slab_massless_divergence_E1000,1306202502,5000000,43.0,8,0,data/runs_m1/m1_slab_massless_divergence_E1000.root,27cafd0,M1 telescope
+M2,sim/run_m2m4.py,m2_rectilinear_tilt0,1956227277,3000000,135.1,8,0,data/runs_m2/m2_rectilinear_tilt0.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_rectilinear_tilt5,1915584102,3000000,151.8,8,0,data/runs_m2/m2_rectilinear_tilt5.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_rectilinear_tilt10,624522201,3000000,149.0,8,0,data/runs_m2/m2_rectilinear_tilt10.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_gyroid_tilt0,1880441751,3000000,88.2,8,0,data/runs_m2/m2_gyroid_tilt0.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_gyroid_tilt5,695650796,3000000,96.3,8,0,data/runs_m2/m2_gyroid_tilt5.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_gyroid_tilt10,123496812,3000000,103.9,8,0,data/runs_m2/m2_gyroid_tilt10.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_rectilinear_tilt1,835744346,3000000,142.8,8,0,data/runs_m2/m2_rectilinear_tilt1.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_rectilinear_tilt2,1276733082,3000000,140.6,8,0,data/runs_m2/m2_rectilinear_tilt2.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_rectilinear_tilt3,135425174,3000000,146.9,8,0,data/runs_m2/m2_rectilinear_tilt3.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_solid_t2,629533383,3000000,15.6,8,0,data/runs_m2/m2_solid_t2.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_solid_t3,145746196,3000000,19.3,8,0,data/runs_m2/m2_solid_t3.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_solid_t4,1337921177,3000000,23.9,8,0,data/runs_m2/m2_solid_t4.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_solid_t5,708896875,3000000,27.0,8,0,data/runs_m2/m2_solid_t5.root,27cafd0,M2/M4
+M2,sim/run_m2m4.py,m2_empty,1248981660,3000000,25.1,8,0,data/runs_m2/m2_empty.root,27cafd0,M2/M4
+M4,sim/run_m2m4.py,m4_gyroid_f05,791387029,3000000,52.0,8,0,data/runs_m4/m4_gyroid_f05.root,27cafd0,M2/M4
+M4,sim/run_m2m4.py,m4_gyroid_f30,886661016,3000000,96.8,8,0,data/runs_m4/m4_gyroid_f30.root,27cafd0,M2/M4
+M4,sim/run_m2m4.py,m4_voronoi_f05,118008953,3000000,57.1,8,0,data/runs_m4/m4_voronoi_f05.root,27cafd0,M2/M4
+M4,sim/run_m2m4.py,m4_voronoi_f30,1926027876,3000000,100.6,8,0,data/runs_m4/m4_voronoi_f30.root,27cafd0,M2/M4
+M4,sim/run_m2m4.py,m4_csolid_t1,504777755,3000000,12.4,8,0,data/runs_m4/m4_csolid_t1.root,27cafd0,M2/M4
+M4,sim/run_m2m4.py,m4_csolid_t2,1065514404,3000000,15.3,8,0,data/runs_m4/m4_csolid_t2.root,27cafd0,M2/M4
+M4,sim/run_m2m4.py,m4_csolid_t3,43164545,3000000,18.3,8,0,data/runs_m4/m4_csolid_t3.root,27cafd0,M2/M4
+M4,sim/run_m2m4.py,m4_csolid_t4,147321650,3000000,21.8,8,0,data/runs_m4/m4_csolid_t4.root,27cafd0,M2/M4
+M4,sim/run_m2m4.py,m4_empty,1016549026,3000000,27.0,8,0,data/runs_m4/m4_empty.root,27cafd0,M2/M4
+M3_A,sim/run_m3.py,camp_rectilinear_f20_E1000,688460526,30000,9.4,10,0,data/runs/camp_rectilinear_f20_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_rectilinear_f30_E1000,1970610665,30000,9.2,10,0,data/runs/camp_rectilinear_f30_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_rectilinear_f40_E1000,1986646842,30000,9.4,10,0,data/runs/camp_rectilinear_f40_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_rectilinear_f50_E1000,1768186208,30000,9.8,10,0,data/runs/camp_rectilinear_f50_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_gyroid_f20_E1000,1497293340,30000,3.5,10,0,data/runs/camp_gyroid_f20_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_gyroid_f30_E1000,1919124553,30000,4.0,10,0,data/runs/camp_gyroid_f30_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_gyroid_f40_E1000,15259771,30000,3.6,10,0,data/runs/camp_gyroid_f40_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_gyroid_f50_E1000,1763780562,30000,3.6,10,0,data/runs/camp_gyroid_f50_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_schwarzp_f20_E1000,1785248481,30000,3.5,10,0,data/runs/camp_schwarzp_f20_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_schwarzp_f30_E1000,1507257076,30000,3.5,10,0,data/runs/camp_schwarzp_f30_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_schwarzp_f40_E1000,1022602775,30000,3.6,10,0,data/runs/camp_schwarzp_f40_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_schwarzp_f50_E1000,1993206146,30000,4.5,10,0,data/runs/camp_schwarzp_f50_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t2,730377208,30000,0.7,10,0,data/runs/solid_E1000_t2.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t3,638491161,30000,0.7,10,0,data/runs/solid_E1000_t3.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t4,718344167,30000,0.7,10,0,data/runs/solid_E1000_t4.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t5,588859427,30000,0.7,10,0,data/runs/solid_E1000_t5.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t8,2035820858,30000,0.8,10,0,data/runs/solid_E1000_t8.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t16,1201835700,30000,1.1,10,0,data/runs/solid_E1000_t16.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,empty_E1000,1358881204,30000,0.7,10,0,data/runs/empty_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_rectilinear_f30_c0.5_E200,494499315,30000,19.5,10,-11,data/runs_m3/m3_rectilinear_f30_c0.5_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_rectilinear_f30_c1_E200,946491474,30000,24.0,10,0,data/runs_m3/m3_rectilinear_f30_c1_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_rectilinear_f30_c5_E200,646219391,30000,5.2,10,0,data/runs_m3/m3_rectilinear_f30_c5_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_gyroid_f30_c0.5_E200,952481565,30000,7.0,10,-11,data/runs_m3/m3_gyroid_f30_c0.5_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_gyroid_f30_c1_E200,169647232,30000,8.0,10,0,data/runs_m3/m3_gyroid_f30_c1_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_gyroid_f30_c5_E200,1988602987,30000,2.3,10,0,data/runs_m3/m3_gyroid_f30_c5_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_schwarzp_f30_c0.5_E200,692106223,30000,6.9,10,-11,data/runs_m3/m3_schwarzp_f30_c0.5_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_schwarzp_f30_c1_E200,2130148168,30000,7.8,10,0,data/runs_m3/m3_schwarzp_f30_c1_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_schwarzp_f30_c5_E200,1536811516,30000,2.2,10,0,data/runs_m3/m3_schwarzp_f30_c5_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B1000,sim/run_m3.py,m3_rectilinear_f30_c0.5_E1000,1167635125,30000,17.5,10,-11,data/runs_m3/m3_rectilinear_f30_c0.5_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B1000,sim/run_m3.py,m3_rectilinear_f30_c1_E1000,798034657,30000,23.5,10,0,data/runs_m3/m3_rectilinear_f30_c1_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B1000,sim/run_m3.py,m3_rectilinear_f30_c5_E1000,276574343,30000,5.9,10,0,data/runs_m3/m3_rectilinear_f30_c5_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B1000,sim/run_m3.py,m3_gyroid_f30_c0.5_E1000,1465864874,30000,7.0,10,-11,data/runs_m3/m3_gyroid_f30_c0.5_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B1000,sim/run_m3.py,m3_gyroid_f30_c1_E1000,1341696110,30000,7.7,10,0,data/runs_m3/m3_gyroid_f30_c1_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B1000,sim/run_m3.py,m3_gyroid_f30_c5_E1000,3146581,30000,2.1,10,0,data/runs_m3/m3_gyroid_f30_c5_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B1000,sim/run_m3.py,m3_schwarzp_f30_c0.5_E1000,19856436,30000,6.8,10,-11,data/runs_m3/m3_schwarzp_f30_c0.5_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B1000,sim/run_m3.py,m3_schwarzp_f30_c1_E1000,654166979,30000,7.9,10,0,data/runs_m3/m3_schwarzp_f30_c1_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B1000,sim/run_m3.py,m3_schwarzp_f30_c5_E1000,49111759,30000,2.2,10,0,data/runs_m3/m3_schwarzp_f30_c5_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_rectilinear_f30_c500um_E200,1820060737,30000,36.4,10,0,data/runs_m3/m3_rectilinear_f30_c500um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_rectilinear_f30_c1000um_E200,2022736001,30000,24.1,10,0,data/runs_m3/m3_rectilinear_f30_c1000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_rectilinear_f30_c5000um_E200,959817037,30000,5.8,10,0,data/runs_m3/m3_rectilinear_f30_c5000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_gyroid_f30_c500um_E200,574541700,30000,13.4,10,0,data/runs_m3/m3_gyroid_f30_c500um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_gyroid_f30_c1000um_E200,1294203690,30000,7.9,10,0,data/runs_m3/m3_gyroid_f30_c1000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_gyroid_f30_c5000um_E200,2086593332,30000,2.1,10,0,data/runs_m3/m3_gyroid_f30_c5000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_schwarzp_f30_c500um_E200,1472654354,30000,13.0,10,0,data/runs_m3/m3_schwarzp_f30_c500um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_schwarzp_f30_c1000um_E200,1000089173,30000,8.0,10,0,data/runs_m3/m3_schwarzp_f30_c1000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_schwarzp_f30_c5000um_E200,591601578,30000,2.2,10,0,data/runs_m3/m3_schwarzp_f30_c5000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_rectilinear_f20_E1000,688460526,10000000,307.7,10,0,data/runs/camp_rectilinear_f20_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_rectilinear_f30_E1000,1970610665,10000000,352.9,10,0,data/runs/camp_rectilinear_f30_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_rectilinear_f40_E1000,1986646842,10000000,412.3,10,0,data/runs/camp_rectilinear_f40_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_rectilinear_f50_E1000,1768186208,10000000,468.8,10,0,data/runs/camp_rectilinear_f50_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_gyroid_f20_E1000,1497293340,10000000,194.0,10,0,data/runs/camp_gyroid_f20_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_gyroid_f30_E1000,1919124553,10000000,231.5,10,0,data/runs/camp_gyroid_f30_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_gyroid_f40_E1000,15259771,10000000,268.4,10,0,data/runs/camp_gyroid_f40_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_gyroid_f50_E1000,1763780562,10000000,321.7,10,0,data/runs/camp_gyroid_f50_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_schwarzp_f20_E1000,1785248481,10000000,214.6,10,0,data/runs/camp_schwarzp_f20_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_schwarzp_f30_E1000,1507257076,10000000,247.4,10,0,data/runs/camp_schwarzp_f30_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_schwarzp_f40_E1000,1022602775,10000000,315.9,10,0,data/runs/camp_schwarzp_f40_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,camp_schwarzp_f50_E1000,1993206146,10000000,337.4,10,0,data/runs/camp_schwarzp_f50_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t2,730377208,10000000,46.4,10,0,data/runs/solid_E1000_t2.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t3,638491161,10000000,57.4,10,0,data/runs/solid_E1000_t3.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t4,718344167,10000000,72.1,10,0,data/runs/solid_E1000_t4.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t5,588859427,10000000,82.2,10,0,data/runs/solid_E1000_t5.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t8,2035820858,10000000,121.0,10,0,data/runs/solid_E1000_t8.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,solid_E1000_t16,1201835700,10000000,202.2,10,0,data/runs/solid_E1000_t16.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_A,sim/run_m3.py,empty_E1000,1358881204,10000000,80.2,10,0,data/runs/empty_E1000.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_rectilinear_f30_c500um_E200,1820060737,3000000,763.0,10,0,data/runs_m3/m3_rectilinear_f30_c500um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_rectilinear_f30_c1000um_E200,2022736001,3000000,306.4,10,0,data/runs_m3/m3_rectilinear_f30_c1000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_rectilinear_f30_c5000um_E200,959817037,3000000,83.6,10,0,data/runs_m3/m3_rectilinear_f30_c5000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_gyroid_f30_c500um_E200,574541700,3000000,363.7,10,0,data/runs_m3/m3_gyroid_f30_c500um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_gyroid_f30_c1000um_E200,1294203690,3000000,187.7,10,0,data/runs_m3/m3_gyroid_f30_c1000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_gyroid_f30_c5000um_E200,2086593332,3000000,60.5,10,0,data/runs_m3/m3_gyroid_f30_c5000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_schwarzp_f30_c500um_E200,1472654354,3000000,377.9,10,0,data/runs_m3/m3_schwarzp_f30_c500um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_schwarzp_f30_c1000um_E200,1000089173,3000000,197.0,10,0,data/runs_m3/m3_schwarzp_f30_c1000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+M3_B200,sim/run_m3.py,m3_schwarzp_f30_c5000um_E200,591601578,3000000,60.1,10,0,data/runs_m3/m3_schwarzp_f30_c5000um_E200.root,27cafd0,M3 3rd-energy+wide-Neff
+P7_repro,empty_E200,empty_E200,1227716589,3000000,0.5,10,-6,data/runs/empty_E200.root,working,stuck=0
+P7_repro,solid_E200_t2,solid_E200_t2,704981197,10000000,0.1,10,-6,data/runs/solid_E200_t2.root,working,stuck=0
+P7_repro,solid_E200_t3,solid_E200_t3,310169362,10000000,0.1,10,-6,data/runs/solid_E200_t3.root,working,stuck=0
+P7_repro,solid_E200_t4,solid_E200_t4,1335220254,10000000,0.1,10,-6,data/runs/solid_E200_t4.root,working,stuck=0
+P7_repro,solid_E200_t5,solid_E200_t5,1172399759,10000000,0.1,10,-6,data/runs/solid_E200_t5.root,working,stuck=0
+P7_repro,solid_E200_t8,solid_E200_t8,1713756232,10000000,0.1,10,-6,data/runs/solid_E200_t8.root,working,stuck=0
+P7_repro,solid_E200_t16,solid_E200_t16,376014401,10000000,0.1,10,-6,data/runs/solid_E200_t16.root,working,stuck=0
+P7_repro,camp_diamond_f20_E200,camp_diamond_f20_E200,1131988056,1000000,0.1,10,-6,data/runs/camp_diamond_f20_E200.root,working,stuck=0
+P7_repro,camp_diamond_f30_E200,camp_diamond_f30_E200,59444928,1000000,0.1,10,-6,data/runs/camp_diamond_f30_E200.root,working,stuck=0
+P7_repro,camp_diamond_f40_E200,camp_diamond_f40_E200,988499712,1000000,0.1,10,-6,data/runs/camp_diamond_f40_E200.root,working,stuck=0
+P7_repro,camp_diamond_f50_E200,camp_diamond_f50_E200,13302999,1000000,0.1,10,-6,data/runs/camp_diamond_f50_E200.root,working,stuck=0
+P7_repro,camp_rectilinear_f20_E200,camp_rectilinear_f20_E200,568080650,3000000,0.1,10,-6,data/runs/camp_rectilinear_f20_E200.root,working,stuck=0
+P7_repro,camp_rectilinear_f30_E200,camp_rectilinear_f30_E200,467270541,3000000,0.1,10,-6,data/runs/camp_rectilinear_f30_E200.root,working,stuck=0
+P7_repro,camp_rectilinear_f40_E200,camp_rectilinear_f40_E200,813455593,3000000,0.1,10,-6,data/runs/camp_rectilinear_f40_E200.root,working,stuck=0
+P7_repro,camp_rectilinear_f50_E200,camp_rectilinear_f50_E200,1177290006,3000000,0.1,10,-6,data/runs/camp_rectilinear_f50_E200.root,working,stuck=0
+P7_repro,camp_schwarzp_f20_E200,camp_schwarzp_f20_E200,1630693414,3000000,0.1,10,-6,data/runs/camp_schwarzp_f20_E200.root,working,stuck=0
+P7_repro,camp_schwarzp_f30_E200,camp_schwarzp_f30_E200,1647970612,3000000,0.1,10,-6,data/runs/camp_schwarzp_f30_E200.root,working,stuck=0
+P7_repro,camp_schwarzp_f40_E200,camp_schwarzp_f40_E200,581296330,3000000,0.1,10,-6,data/runs/camp_schwarzp_f40_E200.root,working,stuck=0
+P7_repro,camp_schwarzp_f50_E200,camp_schwarzp_f50_E200,76801769,3000000,0.1,10,-6,data/runs/camp_schwarzp_f50_E200.root,working,stuck=0
+P7_repro,camp_gyroid_f20_E200,camp_gyroid_f20_E200,1534024810,6000000,0.1,10,-6,data/runs/camp_gyroid_f20_E200.root,working,stuck=0
+P7_repro,camp_gyroid_f30_E200,camp_gyroid_f30_E200,1363281723,6000000,0.1,10,-6,data/runs/camp_gyroid_f30_E200.root,working,stuck=0
+P7_repro,camp_gyroid_f40_E200,camp_gyroid_f40_E200,195624410,6000000,0.1,10,-6,data/runs/camp_gyroid_f40_E200.root,working,stuck=0
+P7_repro,camp_gyroid_f50_E200,camp_gyroid_f50_E200,186235529,6000000,0.1,10,-6,data/runs/camp_gyroid_f50_E200.root,working,stuck=0
+P7_repro,camp_voronoi_f20_E200,camp_voronoi_f20_E200,620727442,30000000,0.1,10,-6,data/runs/camp_voronoi_f20_E200.root,working,stuck=0
+P7_repro,camp_voronoi_f30_E200,camp_voronoi_f30_E200,1537817674,30000000,0.1,10,-6,data/runs/camp_voronoi_f30_E200.root,working,stuck=0
+P7_repro,camp_voronoi_f40_E200,camp_voronoi_f40_E200,576996942,30000000,0.1,10,-6,data/runs/camp_voronoi_f40_E200.root,working,stuck=0
+P7_repro,camp_voronoi_f50_E200,camp_voronoi_f50_E200,1246336072,30000000,0.1,10,-6,data/runs/camp_voronoi_f50_E200.root,working,stuck=0
+P7_repro,empty_E500,empty_E500,1642983081,3000000,0.1,10,-6,data/runs/empty_E500.root,working,stuck=0
+P7_repro,solid_E500_t2,solid_E500_t2,1134886126,10000000,0.1,10,-6,data/runs/solid_E500_t2.root,working,stuck=0
+P7_repro,solid_E500_t3,solid_E500_t3,1372662496,10000000,0.1,10,-6,data/runs/solid_E500_t3.root,working,stuck=0
+P7_repro,solid_E500_t4,solid_E500_t4,1534014959,10000000,0.1,10,-6,data/runs/solid_E500_t4.root,working,stuck=0
+P7_repro,solid_E500_t5,solid_E500_t5,765364671,10000000,0.1,10,-6,data/runs/solid_E500_t5.root,working,stuck=0
+P7_repro,solid_E500_t8,solid_E500_t8,1632758949,10000000,0.1,10,-6,data/runs/solid_E500_t8.root,working,stuck=0
+P7_repro,solid_E500_t16,solid_E500_t16,1023270346,10000000,0.1,10,-6,data/runs/solid_E500_t16.root,working,stuck=0
+P7_repro,camp_diamond_f20_E500,camp_diamond_f20_E500,1616842012,1000000,0.1,10,-6,data/runs/camp_diamond_f20_E500.root,working,stuck=0
+P7_repro,camp_diamond_f30_E500,camp_diamond_f30_E500,675805972,1000000,0.1,10,-6,data/runs/camp_diamond_f30_E500.root,working,stuck=0
+P7_repro,camp_diamond_f40_E500,camp_diamond_f40_E500,1280707670,1000000,0.1,10,-6,data/runs/camp_diamond_f40_E500.root,working,stuck=0
+P7_repro,camp_diamond_f50_E500,camp_diamond_f50_E500,989388977,1000000,0.1,10,-6,data/runs/camp_diamond_f50_E500.root,working,stuck=0
+P7_repro,camp_rectilinear_f20_E500,camp_rectilinear_f20_E500,905828630,3000000,0.1,10,-6,data/runs/camp_rectilinear_f20_E500.root,working,stuck=0
+P7_repro,camp_rectilinear_f30_E500,camp_rectilinear_f30_E500,1621435909,3000000,0.1,10,-6,data/runs/camp_rectilinear_f30_E500.root,working,stuck=0
+P7_repro,camp_rectilinear_f40_E500,camp_rectilinear_f40_E500,968513580,3000000,0.1,10,-6,data/runs/camp_rectilinear_f40_E500.root,working,stuck=0
+P7_repro,camp_rectilinear_f50_E500,camp_rectilinear_f50_E500,1327850190,3000000,0.1,10,-6,data/runs/camp_rectilinear_f50_E500.root,working,stuck=0
+P7_repro,camp_schwarzp_f20_E500,camp_schwarzp_f20_E500,1346948030,3000000,0.1,10,-6,data/runs/camp_schwarzp_f20_E500.root,working,stuck=0
+P7_repro,camp_schwarzp_f30_E500,camp_schwarzp_f30_E500,1029607854,3000000,0.1,10,-6,data/runs/camp_schwarzp_f30_E500.root,working,stuck=0
+P7_repro,camp_schwarzp_f40_E500,camp_schwarzp_f40_E500,1801922444,3000000,0.1,10,-6,data/runs/camp_schwarzp_f40_E500.root,working,stuck=0
+P7_repro,camp_schwarzp_f50_E500,camp_schwarzp_f50_E500,1084649804,3000000,0.1,10,-6,data/runs/camp_schwarzp_f50_E500.root,working,stuck=0
+P7_repro,camp_gyroid_f20_E500,camp_gyroid_f20_E500,1614820102,6000000,0.1,10,-6,data/runs/camp_gyroid_f20_E500.root,working,stuck=0
+P7_repro,camp_gyroid_f30_E500,camp_gyroid_f30_E500,1751039197,6000000,0.1,10,-6,data/runs/camp_gyroid_f30_E500.root,working,stuck=0
+P7_repro,camp_gyroid_f40_E500,camp_gyroid_f40_E500,762158571,6000000,0.1,10,-6,data/runs/camp_gyroid_f40_E500.root,working,stuck=0
+P7_repro,camp_gyroid_f50_E500,camp_gyroid_f50_E500,622342439,6000000,0.1,10,-6,data/runs/camp_gyroid_f50_E500.root,working,stuck=0
+P7_repro,camp_voronoi_f20_E500,camp_voronoi_f20_E500,399913829,30000000,0.1,10,-6,data/runs/camp_voronoi_f20_E500.root,working,stuck=0
+P7_repro,camp_voronoi_f30_E500,camp_voronoi_f30_E500,1510947673,30000000,0.1,10,-6,data/runs/camp_voronoi_f30_E500.root,working,stuck=0
+P7_repro,camp_voronoi_f40_E500,camp_voronoi_f40_E500,507154320,30000000,0.1,10,-6,data/runs/camp_voronoi_f40_E500.root,working,stuck=0
+P7_repro,camp_voronoi_f50_E500,camp_voronoi_f50_E500,659943340,30000000,0.1,10,-6,data/runs/camp_voronoi_f50_E500.root,working,stuck=0
+P7_repro,empty_E200,empty_E200,1227716589,3000000,20.3,10,0,data/runs/empty_E200.root,working,stuck=0
+P7_repro,solid_E200_t2,solid_E200_t2,704981197,10000000,44.4,10,0,data/runs/solid_E200_t2.root,working,stuck=0
+P7_repro,solid_E200_t3,solid_E200_t3,310169362,10000000,56.4,10,0,data/runs/solid_E200_t3.root,working,stuck=0
+P7_repro,solid_E200_t4,solid_E200_t4,1335220254,10000000,65.4,10,0,data/runs/solid_E200_t4.root,working,stuck=0
+P7_repro,solid_E200_t5,solid_E200_t5,1172399759,10000000,76.2,10,0,data/runs/solid_E200_t5.root,working,stuck=0
+P7_repro,solid_E200_t8,solid_E200_t8,1713756232,10000000,110.6,10,0,data/runs/solid_E200_t8.root,working,stuck=0
+P7_repro,solid_E200_t16,solid_E200_t16,376014401,10000000,192.3,10,0,data/runs/solid_E200_t16.root,working,stuck=0
+P7_repro,camp_diamond_f20_E200,camp_diamond_f20_E200,1131988056,1000000,24.6,10,0,data/runs/camp_diamond_f20_E200.root,working,stuck=0
+P7_repro,camp_diamond_f30_E200,camp_diamond_f30_E200,59444928,1000000,28.7,10,0,data/runs/camp_diamond_f30_E200.root,working,stuck=0
+P7_repro,camp_diamond_f40_E200,camp_diamond_f40_E200,988499712,1000000,35.6,10,0,data/runs/camp_diamond_f40_E200.root,working,stuck=0
+P7_repro,camp_diamond_f50_E200,camp_diamond_f50_E200,13302999,1000000,37.3,10,0,data/runs/camp_diamond_f50_E200.root,working,stuck=0
+P7_repro,camp_rectilinear_f20_E200,camp_rectilinear_f20_E200,568080650,3000000,113.4,10,0,data/runs/camp_rectilinear_f20_E200.root,working,stuck=0
+M4,sim/run_m4_solids_ext.py,m4_csolid_t8,105544534,3000000,93.3,4,0,data/runs_m4/m4_csolid_t8.root,working,D8 floor-range extension
+P7_repro,camp_rectilinear_f30_E200,camp_rectilinear_f30_E200,467270541,3000000,171.2,10,0,data/runs/camp_rectilinear_f30_E200.root,working,stuck=0
+M4,sim/run_m4_solids_ext.py,m4_csolid_t16,440974610,3000000,169.8,4,0,data/runs_m4/m4_csolid_t16.root,working,D8 floor-range extension
+P7_repro,camp_rectilinear_f40_E200,camp_rectilinear_f40_E200,813455593,3000000,170.1,10,0,data/runs/camp_rectilinear_f40_E200.root,working,stuck=0
+P7_repro,camp_rectilinear_f50_E200,camp_rectilinear_f50_E200,1177290006,3000000,181.0,10,0,data/runs/camp_rectilinear_f50_E200.root,working,stuck=0
+P7_repro,camp_schwarzp_f20_E200,camp_schwarzp_f20_E200,1630693414,3000000,77.3,10,0,data/runs/camp_schwarzp_f20_E200.root,working,stuck=0
+P7_repro,camp_schwarzp_f30_E200,camp_schwarzp_f30_E200,1647970612,3000000,91.7,10,0,data/runs/camp_schwarzp_f30_E200.root,working,stuck=0
+P7_repro,camp_schwarzp_f40_E200,camp_schwarzp_f40_E200,581296330,3000000,106.4,10,0,data/runs/camp_schwarzp_f40_E200.root,working,stuck=0
+P7_repro,camp_schwarzp_f50_E200,camp_schwarzp_f50_E200,76801769,3000000,122.1,10,0,data/runs/camp_schwarzp_f50_E200.root,working,stuck=0
+P7_repro,camp_gyroid_f20_E200,camp_gyroid_f20_E200,1534024810,6000000,154.3,10,0,data/runs/camp_gyroid_f20_E200.root,working,stuck=0
+P7_repro,camp_gyroid_f30_E200,camp_gyroid_f30_E200,1363281723,6000000,188.9,10,0,data/runs/camp_gyroid_f30_E200.root,working,stuck=0
+P7_repro,camp_gyroid_f40_E200,camp_gyroid_f40_E200,195624410,6000000,226.0,10,0,data/runs/camp_gyroid_f40_E200.root,working,stuck=0
+P7_repro,camp_gyroid_f50_E200,camp_gyroid_f50_E200,186235529,6000000,254.0,10,0,data/runs/camp_gyroid_f50_E200.root,working,stuck=0
+P7_repro,camp_voronoi_f20_E200,camp_voronoi_f20_E200,620727442,30000000,827.7,10,0,data/runs/camp_voronoi_f20_E200.root,working,stuck=0
+P7_repro,camp_voronoi_f30_E200,camp_voronoi_f30_E200,1537817674,30000000,948.6,10,0,data/runs/camp_voronoi_f30_E200.root,working,stuck=0
+P7_repro,camp_voronoi_f40_E200,camp_voronoi_f40_E200,576996942,30000000,967.8,10,0,data/runs/camp_voronoi_f40_E200.root,working,stuck=0
+P7_repro,camp_voronoi_f50_E200,camp_voronoi_f50_E200,1246336072,30000000,1096.8,10,0,data/runs/camp_voronoi_f50_E200.root,working,stuck=0
+P7_repro,empty_E500,empty_E500,1642983081,3000000,23.3,10,0,data/runs/empty_E500.root,working,stuck=0
+P7_repro,solid_E500_t2,solid_E500_t2,1134886126,10000000,46.9,10,0,data/runs/solid_E500_t2.root,working,stuck=0
+P7_repro,solid_E500_t3,solid_E500_t3,1372662496,10000000,58.3,10,0,data/runs/solid_E500_t3.root,working,stuck=0
+P7_repro,solid_E500_t4,solid_E500_t4,1534014959,10000000,69.7,10,0,data/runs/solid_E500_t4.root,working,stuck=0
+P7_repro,solid_E500_t5,solid_E500_t5,765364671,10000000,81.0,10,0,data/runs/solid_E500_t5.root,working,stuck=0
+P7_repro,solid_E500_t8,solid_E500_t8,1632758949,10000000,113.3,10,0,data/runs/solid_E500_t8.root,working,stuck=0
+P7_repro,solid_E500_t16,solid_E500_t16,1023270346,10000000,205.2,10,0,data/runs/solid_E500_t16.root,working,stuck=0
+P7_repro,camp_diamond_f20_E500,camp_diamond_f20_E500,1616842012,1000000,24.7,10,0,data/runs/camp_diamond_f20_E500.root,working,stuck=0
+P7_repro,camp_diamond_f30_E500,camp_diamond_f30_E500,675805972,1000000,29.2,10,0,data/runs/camp_diamond_f30_E500.root,working,stuck=0
+P7_repro,camp_diamond_f40_E500,camp_diamond_f40_E500,1280707670,1000000,36.3,10,0,data/runs/camp_diamond_f40_E500.root,working,stuck=0
+P7_repro,camp_diamond_f50_E500,camp_diamond_f50_E500,989388977,1000000,37.5,10,0,data/runs/camp_diamond_f50_E500.root,working,stuck=0
+P7_repro,camp_rectilinear_f20_E500,camp_rectilinear_f20_E500,905828630,3000000,105.3,10,0,data/runs/camp_rectilinear_f20_E500.root,working,stuck=0
+P7_repro,camp_rectilinear_f30_E500,camp_rectilinear_f30_E500,1621435909,3000000,124.5,10,0,data/runs/camp_rectilinear_f30_E500.root,working,stuck=0
+P7_repro,camp_rectilinear_f40_E500,camp_rectilinear_f40_E500,968513580,3000000,147.7,10,0,data/runs/camp_rectilinear_f40_E500.root,working,stuck=0
+P7_repro,camp_rectilinear_f50_E500,camp_rectilinear_f50_E500,1327850190,3000000,165.8,10,0,data/runs/camp_rectilinear_f50_E500.root,working,stuck=0
+P7_repro,camp_schwarzp_f20_E500,camp_schwarzp_f20_E500,1346948030,3000000,67.2,10,0,data/runs/camp_schwarzp_f20_E500.root,working,stuck=0
+P7_repro,camp_schwarzp_f30_E500,camp_schwarzp_f30_E500,1029607854,3000000,83.6,10,0,data/runs/camp_schwarzp_f30_E500.root,working,stuck=0
+P7_repro,camp_schwarzp_f40_E500,camp_schwarzp_f40_E500,1801922444,3000000,92.4,10,0,data/runs/camp_schwarzp_f40_E500.root,working,stuck=0
+P7_repro,camp_schwarzp_f50_E500,camp_schwarzp_f50_E500,1084649804,3000000,114.2,10,0,data/runs/camp_schwarzp_f50_E500.root,working,stuck=0
+P7_repro,camp_gyroid_f20_E500,camp_gyroid_f20_E500,1614820102,6000000,138.9,10,0,data/runs/camp_gyroid_f20_E500.root,working,stuck=0
+P7_repro,camp_gyroid_f30_E500,camp_gyroid_f30_E500,1751039197,6000000,163.1,10,0,data/runs/camp_gyroid_f30_E500.root,working,stuck=0
+P7_repro,camp_gyroid_f40_E500,camp_gyroid_f40_E500,762158571,6000000,187.5,10,0,data/runs/camp_gyroid_f40_E500.root,working,stuck=0
+P7_repro,camp_gyroid_f50_E500,camp_gyroid_f50_E500,622342439,6000000,220.6,10,0,data/runs/camp_gyroid_f50_E500.root,working,stuck=0
+P7_repro,camp_voronoi_f20_E500,camp_voronoi_f20_E500,399913829,30000000,706.6,10,0,data/runs/camp_voronoi_f20_E500.root,working,stuck=0
+P7_repro,camp_voronoi_f30_E500,camp_voronoi_f30_E500,1510947673,30000000,813.8,10,0,data/runs/camp_voronoi_f30_E500.root,working,stuck=0
+P7_repro,camp_voronoi_f40_E500,camp_voronoi_f40_E500,507154320,30000000,918.8,10,0,data/runs/camp_voronoi_f40_E500.root,working,stuck=0
+P7_repro,camp_voronoi_f50_E500,camp_voronoi_f50_E500,659943340,30000000,951.4,10,0,data/runs/camp_voronoi_f50_E500.root,working,stuck=0
