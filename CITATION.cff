@@ -23,8 +23,10 @@ authors:
 version: "1.0.0"
 date-released: "2026-07-17"
 license: MIT
-# doi: <ZENODO CONCEPT DOI --- pending deposit>          # software/data archive DOI (Zenodo)
-# repository-code: <REPOSITORY URL --- pending public release>
+
+doi: https://doi.org/10.5281/zenodo.21402860
+repository-code: https://github.com/pa1aash/mcs-detector/releases/tag/v1.0.0
+
 keywords:
   - multiple Coulomb scattering
   - detector modelling and simulations
