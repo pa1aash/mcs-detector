@@ -131,7 +131,7 @@ Exact pins from `environment.yml` (conda-forge):
 - **Paper:** P. Gang, R. Mendiratta, Palash Bharti, Dhruv Punjabi, *Multiple Coulomb Scattering in
   Lattice and Foam Detector Structures Beyond the Homogeneous-Slab Approximation*, Journal of
   Instrumentation (JINST), forthcoming — **[VOLUME/PAGE — pending acceptance]**.
-- **Software and data:** archived on Zenodo — **[ZENODO CONCEPT DOI — pending deposit]**.
+- **Software and data:** archived on Zenodo (https://doi.org/10.5281/zenodo.21402860)
 
 See `CITATION.cff` for machine-readable citation metadata.
 
